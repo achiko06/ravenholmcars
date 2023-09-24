@@ -14,7 +14,7 @@ const Filter = ({ title, options }: CustomFilterProps) => {
   const handleUpdateParams = (e: { title: string; value: string }) => {
     const newPathName = updateSearchParams(title, e.value.toLowerCase());
 
-    router.push(newPathName);
+    router.push(newPathName, {scroll: false});
   }
   return (
     <div className='w-fit'>
@@ -45,7 +45,7 @@ const Filter = ({ title, options }: CustomFilterProps) => {
                   key={option.title}
                   className={({ active }) =>
                     `relative cursor-default select-none py-2 px-4 ${
-                      active ? "bg-primary-blue text-white" : "text-gray-900"
+                      active ? "bg-primary" : "text-gray-900"
                     }`
                   }
                   value={option}

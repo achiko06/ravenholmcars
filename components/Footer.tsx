@@ -9,7 +9,7 @@ const Footer = () => {
         <div className='flex max-md:flex-col flex-wrap justify-between gap-5 sm:px-16 px-6 py-10'>
           <div className='flex justify-start items-start gap-2'>
             <Image src='/logo.png' alt='logo' width={18} height={18} className='object-contain mt-1' />
-            <p className='text-base text-gray-700'>
+            <p className='text-base text-gray-700 font-bold'>
               RavenHolmCars
             </p>
           </div>
@@ -39,10 +39,10 @@ const Footer = () => {
 
           <div className="footer__copyrights-link">
             <Link href="/" className="text-gray-500">
-              Privacy & Policy
+              Privacy Policy
             </Link>
             <Link href="/" className="text-gray-500">
-              Terms & Condition
+              Terms & Conditions
             </Link>
           </div>
         </div>

@@ -23,7 +23,7 @@ const SearchManufacturer = ({ manufacturer, setManuFacturer }: SearchManuFacture
           {/* Button for the combobox. Click on the icon to see the complete dropdown */}
           <Combobox.Button className='absolute top-[14px]'>
             <Image
-              src='/car-logo.svg'
+              src='/car.png'
               width={20}
               height={20}
               className='ml-4'
@@ -64,7 +64,7 @@ const SearchManufacturer = ({ manufacturer, setManuFacturer }: SearchManuFacture
                     key={item}
                     className={({ active }) =>
                       `relative search-manufacturer__option ${
-                        active ? "bg-primary-blue text-white" : "text-gray-900"
+                        active ? "bg-primary" : "text-gray-900"
                       }`
                     }
                     value={item}

@@ -22,7 +22,7 @@ const Navbar = () => {
         <Button
           title='Sign in'
           btnType='button'
-          containerStyles='text-primary-blue rounded-full bg-white min-w-[130px]'
+          containerStyles='text-gray-700 font-bold rounded-full bg-white min-w-[130px] hover:text-primary-100 duration-700'
         />
       </nav>
     </header>
