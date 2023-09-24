@@ -15,11 +15,11 @@ const Hero = () => {
     <div className="hero">
       <div className="flex-1 pt-36 padding-x">
         <h1 className="hero__title">
-          Lorem ipsum dolor sit sit amet consectetur!
+          Welcome to RavenHolmCars rental services
         </h1>
 
         <p className="hero__subtitle">
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sunt quae.
+          Choose from over 1000 vehicles
         </p>
 
         <Button
